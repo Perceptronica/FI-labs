@@ -47,7 +47,7 @@ int main() {
 		l_old = l_next;
 		k++;
 		if ((i_old > 5 && i_old < 15) && (j_old > -15 && j_old < -5)) {
-			printf("попадание! x: %d, y: %d, шаг: %d\n", i_old, j_old, k);
+			printf("it`s in! x: %d, y: %d, step: %d\n", i_old, j_old, k);
 			break;
 		}
 		if (k == 50) {
@@ -56,7 +56,7 @@ int main() {
 		}
 	}
 	if (flag == 1) {
-		printf("промах!\n");
+		printf("miss!\n");
 	}
 	return 0;
 }
