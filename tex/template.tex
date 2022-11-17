@@ -1,4 +1,4 @@
-\input{preamble/preamble}
+\input{../tex/preamble/preamble}
 
 \nc{\DocName}{Отчет по лабораторной работе}
 \nc{\Number}{№}
@@ -7,17 +7,25 @@
 \nc{\ReportDate}{}
 \nc{\Mark}{}
 \nc{\Signature}{}
-\nc{\Theme}{}
-\nc{\Target}{}
-\nc{\Task}{}
-\nc{\Idea}{}
-\nc{\Plan}{}
-\nc{\Protocol}{}
-\nc{\Debugging}{}
-\nc{\AuthorsRemarks}{}
-\nc{\Conclusions}{}
+\nc{\Theme}{} %1
+\nc{\Target}{} %2
+\nc{\Task}{} %3
+\nc{\Idea}{} %6
+\nc{\Plan}{} %7
+\nc{\Protocol}{
+\begin{tabular}{|c|c|c|c|p{3cm}|p{4cm}|l|}
+	\hline
+	№ & лаб/дом & Дата & Время & Событие & Действие по исправлению & Примечание \\
+	\hline 
+	& & & & & & \\
+	\hline
+\end{tabular}
+} %8
+\nc{\Debugging}{} %9
+\nc{\AuthorsRemarks}{} %10
+\nc{\Conclusions}{} %11
 \nc{\Defects}{}
 
 \begin{document}
-	\input{content}
+	\input{../tex/content}
 \end{document}
