@@ -12,5 +12,5 @@
 - КП №3:
 
 Контакты:
-- email: (anton1258kab@gmail.com)(mailto:anton1258kab@gmail.com)
-- vk: (vk.com/en2si)(профиль)
+- email: [anton1258kab@gmail.com](mailto:anton1258kab@gmail.com)
+- vk: [профиль](vk.com/en2si)
