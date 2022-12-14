@@ -13,4 +13,4 @@
 
 Контакты:
 - email: [anton1258kab@gmail.com](mailto:anton1258kab@gmail.com)
-- vk: [профиль](vk.com/en2si)
+- vk: [профиль](https://vk.com/en2si)
