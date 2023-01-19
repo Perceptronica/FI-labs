@@ -1,0 +1,39 @@
+\input{../tex/preamble/preamble}
+
+\nc{\DocName}{Отчет по лабораторной работе}
+\nc{\Number}{№ 11}
+\nc{\CourseName}{Фундаментальная информатика}
+\nc{\CompletionDate}{"8" ноября 2022 г.}
+\nc{\ReportDate}{"17" ноября 2022 г.}
+\nc{\Mark}{}
+\nc{\Signature}{}
+\nc{\Theme}{Обработка последовательности литер входного тектового файла} %1
+\nc{\Target}{Написать программу преобразующая тектовый файл по заданной задаче} %2
+\nc{\Task}{Закодировать текст по Цезарю с переменным ключом, равному номеру буквы + 3} %3
+\nc{\Idea}{Перенаправить ввод с помощью символа "<", прочитать посимвольно файл, одновременно с этим преобразуя каждый символ вывода по кодированию по Цезарю с ключом, равным номеру буквы (начиная с 1) + 3. Если необходимо (когда выходим за границы алфавита по ASCII), применяем остаток от деления на 26 (кол-во букв в латинском алфавите)} %6
+\nc{\Plan}{\\
+	Один из тестов:
+	\lstinputlisting[caption={}, label={lst:listing-mt}, language=C]{text.txt} %7
+	Результат:
+	\lstinputlisting[caption={}, label={lst:listing-mt}, language=C]{result.txt}
+}
+\nc{\Protocol}{
+	%без кириллицы:%
+	\lstinputlisting[caption={}, label={lst:listing-mt}, language=C]{lab11.c}
+} %8
+\nc{\Debugging}{
+	\begin{tabular}{|c|c|c|c|p{3cm}|p{4cm}|l|}
+		\hline
+		№ & лаб/дом & Дата & Время & Событие & Действие по исправлению & Примечание \\
+		\hline 
+		& & & & & & \\
+		\hline
+	\end{tabular}
+} %9
+\nc{\AuthorRemarks}{-}
+\nc{\Conclusions}{Я научился обрабатывать последовательности литер на Си.} %11
+\nc{\Defects}{-}
+
+\begin{document}
+	\input{../tex/content}
+\end{document}

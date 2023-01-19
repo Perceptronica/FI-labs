@@ -1,0 +1,36 @@
+\input{../tex/preamble/preamble}
+
+\nc{\DocName}{Отчет по лабораторной работе}
+\nc{\Number}{№ 15}
+\nc{\CourseName}{Фундаментальная информатика}
+\nc{\CompletionDate}{"1" декабря 2022 г.}
+\nc{\ReportDate}{"1" декбаря 2022 г.}
+\nc{\Mark}{}
+\nc{\Signature}{}
+\nc{\Theme}{Обработка матриц} %1
+\nc{\Target}{Составить программу на Си ввода квадратной матрицы ее обратки по заданию.} %2
+\nc{\Task}{Замена элементов на главной диагонали суммой элементов на побочных диагоналях.} %3
+\nc{\Idea}{
+	Считаем сумму побочных диагоналей всегда, заменяем при случае, когда элемент, входящий в побочную диагональ, имеет одинаковое значение "абсциссы" и "ординаты", тогда и только тогда заменяем.
+} %6
+\nc{\Plan}{}
+\nc{\Protocol}{
+	%без кириллицы:%
+	\lstinputlisting[caption={}, label={lst:listing-mt}, language=C]{lab15.c}
+} %8
+\nc{\Debugging}{
+	\begin{tabular}{|c|c|c|c|p{3cm}|p{4cm}|l|}
+		\hline
+		№ & лаб/дом & Дата & Время & Событие & Действие по исправлению & Примечание \\
+		\hline 
+		& & & & & & \\
+		\hline
+	\end{tabular}
+} %9
+\nc{\AuthorRemarks}{-}
+\nc{\Conclusions}{Я научился работать с матрицами в Си.} %11
+\nc{\Defects}{-}
+
+\begin{document}
+	\input{../tex/content}
+\end{document}

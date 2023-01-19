@@ -1,0 +1,13 @@
+[kabanov@there lab11]$ cd ..
+[kabanov@there FI-labs]$ cd lab14
+[kabanov@there lab14]$ ls
+a  lab14.aux  lab14.c  lab14.log  lab14.out  lab14.pdf  lab14.synctex.gz  lab14.tex
+[kabanov@there lab14]$ gcc lab14.c -std=c99 -Wall -pedantic -o a
+[kabanov@there lab14]$ ./a
+4
+1 2 3 4
+5 6 7 8
+9 10 11 12
+13 14 15 16
+16 12 15 14 11 8 4 7 10 13 9 6 3 2 5 1 
+[kabanov@there lab14]$ 

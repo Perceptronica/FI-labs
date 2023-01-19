@@ -1,0 +1,1 @@
+Or, in other words: C++ is (the) language for defining and using light-weight abstractions. It has significant strengths in areas where hardware must be handled effectively and there are significant complexity to cope with. This includes many resource constrained systems and much foundational and infrastructure code. 
